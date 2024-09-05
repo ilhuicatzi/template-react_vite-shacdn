@@ -5,6 +5,9 @@ import { ThemeProvider } from './contexts/ThemeContexts.tsx'
 import App from './App.tsx'
 import './index.css'
 
+// fonts
+import '@fontsource-variable/inconsolata';
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
